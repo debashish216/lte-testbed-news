@@ -1,0 +1,576 @@
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:29: warning: the name `proto.h' supplied as the second argument in the \file statement matches the following input files:
+   /home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h
+   /home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h
+   /home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h
+Please use a more specific name by including a (larger) part of the path!
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h:264: warning: Illegal member name found.
+/home/dev/OAI/openairinterface5g/openair1/PHY/TOOLS/defs.h:296: warning: documented symbol `void fft' was not declared or defined.
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h:254: warning: documented symbol `void rrc_pdcp_config_req' was not declared or defined.
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h:271: warning: documented symbol `public_pdcpbool rrc_pdcp_config_asn1_req' was not declared or defined.
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h:264: warning: no matching file member found for 
+public_pdcp() const
+Possible candidates:
+ '#define public_pdcp(x)' at line 51 of file/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(unsigned int Pdcp_stats_tx[NB_MODULES_MAX][NB_CNX_CH][NB_RAB_MAX])' at line 106 of file/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(boolean_t pdcp_data_req(const protocol_ctxt_t *const ctxt_pP, const srb_flag_t srb_flagP, const rb_id_t rb_id, const mui_t muiP, const confirm_t confirmP, const sdu_size_t sdu_buffer_size, unsigned char *const sdu_buffer, const pdcp_transmission_mode_t mode))' at line 223 of file/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(boolean_t pdcp_data_ind(const protocol_ctxt_t *const ctxt_pP, const srb_flag_t srb_flagP, const MBMS_flag_t MBMS_flagP, const rb_id_t rb_id, const sdu_size_t sdu_buffer_size, mem_block_t *const sdu_buffer))' at line 246 of file/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(boolean_t pdcp_config_req_asn1(const protocol_ctxt_t *const ctxt_pP, pdcp_t *const pdcp_pP, const srb_flag_tsrb_flagP, const rlc_mode_trlc_mode, const uint32_taction, const uint16_tlc_id, const uint16_tmch_id, const rb_id_trb_id, const uint8_trb_sn, const uint8_trb_report, const uint16_theader_compression_profile, const uint8_tsecurity_mode, uint8_t *const kRRCenc, uint8_t *const kRRCint, uint8_t *const kUPenc))' at line 319 of file/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(boolean_t pdcp_remove_UE(const protocol_ctxt_t *const ctxt_pP))' at line 342 of file/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(void pdcp_run(const protocol_ctxt_t *const ctxt_pP);) public_pdcp(int pdcp_module_init(void)' at line 362 of file/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(void pdcp_module_cleanup(void);) public_pdcp(void pdcp_layer_init(void)' at line 365 of file/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(void pdcp_layer_cleanup(void);) protected_pdcp_fifo(int pdcp_fifo_flush_sdus(const protocol_ctxt_t *const ctxt_pP)' at line 367 of file/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(pdcp_stats_t eNB_pdcp_stats[NUMBER_OF_eNB_MAX];) protected_pdcp(rnti_t pdcp_UE_UE_module_id_to_rnti[NUMBER_OF_UE_MAX]' at line 447 of file/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h:299: warning: documented symbol `boolean_t pdcp_config_req_asn1' was not declared or defined.
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h:337: warning: documented symbol `boolean_t pdcp_remove_UE' was not declared or defined.
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h:345: warning: documented symbol `void rrc_pdcp_config_release' was not declared or defined.
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h:355: warning: documented symbol `void pdcp_run' was not declared or defined.
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/rlc.h:415: warning: member with no name found.
+/home/dev/OAI/openairinterface5g/targets/ARCH/COMMON/common_lib.h:233: warning: unable to resolve reference to `nsamps' for \ref command
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:311: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:327: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:180: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:162: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:381: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:397: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:212: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:214: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:426: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:369: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:132: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:198: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:111: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:240: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:371: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:194: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:430: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:319: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:313: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:238: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:329: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:432: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:315: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:377: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:242: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:103: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:458: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:97: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:146: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:309: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:109: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:136: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:150: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:144: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:373: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:389: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:158: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:148: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:365: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:101: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:449: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:160: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:383: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:331: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:156: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:317: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:375: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:414: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:99: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:460: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:196: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:416: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:379: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:186: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:335: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:184: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:321: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:428: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:424: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:391: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:244: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:333: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/INIT/defs.h:259: warning: The following parameters of phy_config_cba_rnti(module_id_t Mod_id, int CC_id, eNB_flag_t eNB_flag, uint8_t index, rnti_t cba_rnti, uint8_t cba_group_id, uint8_t num_active_cba_groups) are not documented:
+  parameter 'cba_group_id'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_ESTIMATION/defs.h:53: warning: argument 'ue' of command @param is not found in the argument list of lte_sync_time_init(LTE_DL_FRAME_PARMS *frame_parms)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_ESTIMATION/defs.h:53: warning: argument 'band' of command @param is not found in the argument list of lte_sync_time_init(LTE_DL_FRAME_PARMS *frame_parms)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_ESTIMATION/defs.h:53: warning: argument 'DL_freq' of command @param is not found in the argument list of lte_sync_time_init(LTE_DL_FRAME_PARMS *frame_parms)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_ESTIMATION/defs.h:200: warning: The following parameters of get_PL(module_id_t Mod_id, uint8_t CC_id, uint8_t eNB_index) are not documented:
+  parameter 'CC_id'
+/home/dev/OAI/openairinterface5g/openair1/PHY/CODING/defs.h:458: warning: The following parameters of phy_threegpplte_turbo_decoder16(int16_t *y, uint8_t *decoded_bytes, uint16_t n, uint16_t interleaver_f1, uint16_t interleaver_f2, uint8_t max_iterations, uint8_t crc_type, uint8_t F, time_stats_t *init_stats, time_stats_t *alpha_stats, time_stats_t *beta_stats, time_stats_t *gamma_stats, time_stats_t *ext_stats, time_stats_t *intl1_stats, time_stats_t *intl2_stats) are not documented:
+  parameter 'init_stats'
+  parameter 'alpha_stats'
+  parameter 'beta_stats'
+  parameter 'gamma_stats'
+  parameter 'ext_stats'
+  parameter 'intl1_stats'
+  parameter 'intl2_stats'
+/home/dev/OAI/openairinterface5g/openair1/PHY/CODING/defs.h:487: warning: The following parameters of phy_threegpplte_turbo_decoder8(int16_t *y, uint8_t *decoded_bytes, uint16_t n, uint16_t interleaver_f1, uint16_t interleaver_f2, uint8_t max_iterations, uint8_t crc_type, uint8_t F, time_stats_t *init_stats, time_stats_t *alpha_stats, time_stats_t *beta_stats, time_stats_t *gamma_stats, time_stats_t *ext_stats, time_stats_t *intl1_stats, time_stats_t *intl2_stats) are not documented:
+  parameter 'init_stats'
+  parameter 'alpha_stats'
+  parameter 'beta_stats'
+  parameter 'gamma_stats'
+  parameter 'ext_stats'
+  parameter 'intl1_stats'
+  parameter 'intl2_stats'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:230: warning: argument 'rdvix' of command @param is not found in the argument list of fill_eNB_dlsch_MCH(PHY_VARS_eNB *phy_vars_eNB, int mcs, int ndi, int rvidx, int abstraction_flag)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:230: warning: The following parameters of fill_eNB_dlsch_MCH(PHY_VARS_eNB *phy_vars_eNB, int mcs, int ndi, int rvidx, int abstraction_flag) are not documented:
+  parameter 'rvidx'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:240: warning: The following parameters of fill_UE_dlsch_MCH(PHY_VARS_UE *phy_vars_ue, int mcs, int ndi, int rvidx, int eNB_id) are not documented:
+  parameter 'ndi'
+  parameter 'rvidx'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:370: warning: The following parameters of dlsch_qpsk_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int32_t **rxdataF_comp, int32_t **rxdataF_comp_i, int **dl_ch_mag_i, int32_t **rho_i, int16_t *dlsch_llr, uint8_t symbol, uint8_t first_symbol_flag, uint16_t nb_rb, uint16_t pbch_pss_sss_adj, int16_t **llr128p) are not documented:
+  parameter 'dl_ch_mag_i'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:407: warning: The following parameters of dlsch_qpsk_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int32_t **rxdataF_comp, int32_t **rxdataF_comp_i, int **dl_ch_mag_i, int32_t **rho_i, int16_t *dlsch_llr, uint8_t symbol, uint8_t first_symbol_flag, uint16_t nb_rb, uint16_t pbch_pss_sss_adj, int16_t **llr128p) are not documented:
+  parameter 'dl_ch_mag_i'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:444: warning: argument 'ch_mag' of command @param is not found in the argument list of dlsch_16qam_qpsk_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:444: warning: argument 'pbch_pss_sss_adj' of command @param is not found in the argument list of dlsch_16qam_qpsk_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:444: warning: The following parameters of dlsch_16qam_qpsk_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p) are not documented:
+  parameter 'dl_ch_mag'
+  parameter 'pbch_pss_sss_adjust'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:484: warning: argument 'ch_mag' of command @param is not found in the argument list of dlsch_16qam_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:484: warning: argument 'ch_mag_i' of command @param is not found in the argument list of dlsch_16qam_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:484: warning: argument 'pbch_pss_sss_adj' of command @param is not found in the argument list of dlsch_16qam_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:484: warning: The following parameters of dlsch_16qam_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p) are not documented:
+  parameter 'dl_ch_mag'
+  parameter 'dl_ch_mag_i'
+  parameter 'pbch_pss_sss_adjust'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:526: warning: argument 'ch_mag' of command @param is not found in the argument list of dlsch_16qam_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:526: warning: argument 'ch_mag_i' of command @param is not found in the argument list of dlsch_16qam_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:526: warning: argument 'pbch_pss_sss_adj' of command @param is not found in the argument list of dlsch_16qam_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:526: warning: The following parameters of dlsch_16qam_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p) are not documented:
+  parameter 'dl_ch_mag'
+  parameter 'dl_ch_mag_i'
+  parameter 'pbch_pss_sss_adjust'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:566: warning: argument 'ch_mag' of command @param is not found in the argument list of dlsch_64qam_qpsk_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:566: warning: argument 'pbch_pss_sss_adj' of command @param is not found in the argument list of dlsch_64qam_qpsk_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:566: warning: The following parameters of dlsch_64qam_qpsk_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p) are not documented:
+  parameter 'dl_ch_mag'
+  parameter 'pbch_pss_sss_adjust'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:606: warning: argument 'ch_mag' of command @param is not found in the argument list of dlsch_64qam_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:606: warning: argument 'ch_mag_i' of command @param is not found in the argument list of dlsch_64qam_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:606: warning: argument 'pbch_pss_sss_adj' of command @param is not found in the argument list of dlsch_64qam_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:606: warning: The following parameters of dlsch_64qam_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p) are not documented:
+  parameter 'dl_ch_mag'
+  parameter 'dl_ch_mag_i'
+  parameter 'pbch_pss_sss_adjust'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:648: warning: argument 'ch_mag' of command @param is not found in the argument list of dlsch_64qam_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:648: warning: argument 'ch_mag_i' of command @param is not found in the argument list of dlsch_64qam_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:648: warning: argument 'pbch_pss_sss_adj' of command @param is not found in the argument list of dlsch_64qam_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:648: warning: The following parameters of dlsch_64qam_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p) are not documented:
+  parameter 'dl_ch_mag'
+  parameter 'dl_ch_mag_i'
+  parameter 'pbch_pss_sss_adjust'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:718: warning: The following parameters of dlsch_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int32_t **rxdataF_comp, int16_t *dlsch_llr, int32_t **dl_ch_mag, int32_t **dl_ch_magb, uint8_t symbol, uint8_t first_symbol_flag, uint16_t nb_rb, uint16_t pbch_pss_sss_adjust, short **llr_save) are not documented:
+  parameter 'llr_save'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1005: warning: argument 'num_pdcch_symbols' of command @param is not found in the argument list of dlsch_decoding(PHY_VARS_UE *phy_vars_ue, int16_t *dlsch_llr, LTE_DL_FRAME_PARMS *lte_frame_parms, LTE_UE_DLSCH_t *dlsch, LTE_DL_UE_HARQ_t *harq_process, uint8_t subframe, uint8_t harq_pid, uint8_t is_crnti, uint8_t llr8_flag)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1005: warning: The following parameters of dlsch_decoding(PHY_VARS_UE *phy_vars_ue, int16_t *dlsch_llr, LTE_DL_FRAME_PARMS *lte_frame_parms, LTE_UE_DLSCH_t *dlsch, LTE_DL_UE_HARQ_t *harq_process, uint8_t subframe, uint8_t harq_pid, uint8_t is_crnti, uint8_t llr8_flag) are not documented:
+  parameter 'harq_process'
+  parameter 'harq_pid'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1037: warning: The following parameters of rx_pdsch(PHY_VARS_UE *phy_vars_ue, PDSCH_t type, uint8_t eNB_id, uint8_t eNB_id_i, uint8_t subframe, uint8_t symbol, uint8_t first_symbol_flag, uint8_t dual_stream_UE, uint8_t i_mod, uint8_t harq_pid) are not documented:
+  parameter 'harq_pid'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1223: warning: argument 'I_MCS' of command @param is not found in the argument list of get_TBS_DL(uint8_t mcs, uint16_t nb_rb)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1223: warning: The following parameters of get_TBS_DL(uint8_t mcs, uint16_t nb_rb) are not documented:
+  parameter 'mcs'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1229: warning: argument 'I_MCS' of command @param is not found in the argument list of get_TBS_UL(uint8_t mcs, uint16_t nb_rb)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1229: warning: The following parameters of get_TBS_UL(uint8_t mcs, uint16_t nb_rb) are not documented:
+  parameter 'mcs'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1454: warning: The following parameters of initial_sync(PHY_VARS_UE *phy_vars_ue, runmode_t mode) are not documented:
+  parameter 'mode'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1475: warning: argument 'frame_parms' of command @param is not found in the argument list of ulsch_encoding(uint8_t *a, PHY_VARS_UE *phy_vars_ue, uint8_t harq_pid, uint8_t eNB_id, uint8_t tmode, uint8_t control_only_flag, uint8_t Nbundled)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1475: warning: argument 'ulsch' of command @param is not found in the argument list of ulsch_encoding(uint8_t *a, PHY_VARS_UE *phy_vars_ue, uint8_t harq_pid, uint8_t eNB_id, uint8_t tmode, uint8_t control_only_flag, uint8_t Nbundled)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1475: warning: The following parameters of ulsch_encoding(uint8_t *a, PHY_VARS_UE *phy_vars_ue, uint8_t harq_pid, uint8_t eNB_id, uint8_t tmode, uint8_t control_only_flag, uint8_t Nbundled) are not documented:
+  parameter 'phy_vars_ue'
+  parameter 'eNB_id'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1668: warning: argument 'index' of command @param is not found in the argument list of generate_prach(PHY_VARS_UE *phy_vars_ue, uint8_t eNB_id, uint8_t subframe, uint16_t Nf)
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1708: warning: The following parameters of get_fid_prach_tdd(LTE_DL_FRAME_PARMS *frame_parms, uint8_t tdd_map_index) are not documented:
+  parameter 'tdd_map_index'
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1715: warning: argument 'Xu' of command @param is not found in the argument list of compute_prach_seq(PRACH_CONFIG_COMMON *prach_config_common, lte_frame_type_t frame_type, uint32_t X_u[64][839])
+/home/dev/OAI/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1715: warning: The following parameters of compute_prach_seq(PRACH_CONFIG_COMMON *prach_config_common, lte_frame_type_t frame_type, uint32_t X_u[64][839]) are not documented:
+  parameter 'frame_type'
+  parameter 'X_u'
+/home/dev/OAI/openairinterface5g/openair1/SCHED/defs.h:162: warning: argument 'last_slot' of command @param is not found in the argument list of phy_procedures_UE_lte(PHY_VARS_UE *phy_vars_ue, uint8_t eNB_id, uint8_t abstraction_flag, runmode_t mode, relaying_type_t r_type, PHY_VARS_RN *phy_vars_rn)
+/home/dev/OAI/openairinterface5g/openair1/SCHED/defs.h:162: warning: argument 'next_slot' of command @param is not found in the argument list of phy_procedures_UE_lte(PHY_VARS_UE *phy_vars_ue, uint8_t eNB_id, uint8_t abstraction_flag, runmode_t mode, relaying_type_t r_type, PHY_VARS_RN *phy_vars_rn)
+/home/dev/OAI/openairinterface5g/openair1/SCHED/defs.h:197: warning: argument 'last_slot' of command @param is not found in the argument list of phy_procedures_UE_RX(PHY_VARS_UE *phy_vars_ue, uint8_t eNB_id, uint8_t abstraction_flag, runmode_t mode, relaying_type_t r_type, PHY_VARS_RN *phy_vars_rn)
+/home/dev/OAI/openairinterface5g/openair1/SCHED/defs.h:320: warning: argument 'frame_parms' of command @param is not found in the argument list of ra_failed(uint8_t Mod_id, uint8_t CC_id, uint8_t eNB_index)
+/home/dev/OAI/openairinterface5g/openair1/SCHED/defs.h:320: warning: argument 'subframe' of command @param is not found in the argument list of ra_failed(uint8_t Mod_id, uint8_t CC_id, uint8_t eNB_index)
+/home/dev/OAI/openairinterface5g/openair1/SCHED/defs.h:434: warning: argument 'eNB_id' of command @param is not found in the argument list of get_n1_pucch_eNB(PHY_VARS_eNB *phy_vars_eNB, uint8_t UE_id, uint8_t subframe, int16_t *n1_pucch0, int16_t *n1_pucch1, int16_t *n1_pucch2, int16_t *n1_pucch3)
+/home/dev/OAI/openairinterface5g/openair1/SCHED/defs.h:434: warning: argument 'b' of command @param is not found in the argument list of get_n1_pucch_eNB(PHY_VARS_eNB *phy_vars_eNB, uint8_t UE_id, uint8_t subframe, int16_t *n1_pucch0, int16_t *n1_pucch1, int16_t *n1_pucch2, int16_t *n1_pucch3)
+/home/dev/OAI/openairinterface5g/openair1/SCHED/defs.h:434: warning: The following parameters of get_n1_pucch_eNB(PHY_VARS_eNB *phy_vars_eNB, uint8_t UE_id, uint8_t subframe, int16_t *n1_pucch0, int16_t *n1_pucch1, int16_t *n1_pucch2, int16_t *n1_pucch3) are not documented:
+  parameter 'UE_id'
+/home/dev/OAI/openairinterface5g/openair1/SCHED/defs.h:489: warning: The following parameters of pusch_power_cntl(PHY_VARS_UE *phy_vars_ue, uint8_t subframe, uint8_t eNB_id, uint8_t j, uint8_t abstraction_flag) are not documented:
+  parameter 'abstraction_flag'
+/home/dev/OAI/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'nb_taps' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/dev/OAI/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'channel_length' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/dev/OAI/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'amps' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/dev/OAI/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'delays' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/dev/OAI/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'R_sqrt' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/dev/OAI/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'Td' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/dev/OAI/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'BW' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/dev/OAI/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'ricean_factor' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/dev/OAI/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'aoa' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/dev/OAI/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'max_Doppler' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/dev/OAI/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'random_aoa' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/dev/OAI/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: The following parameters of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB) are not documented:
+  parameter 'channel_model'
+  parameter 'sampling_rate'
+  parameter 'channel_bandwidth'
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:84: warning: argument 'buffer_pP' of command @param is not found in the argument list of rrc_ue_decode_dcch(const protocol_ctxt_t *const ctxt_pP, const rb_id_t Srb_id, const uint8_t *const Buffer, const uint8_t eNB_indexP)
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:84: warning: argument 'eNB_index' of command @param is not found in the argument list of rrc_ue_decode_dcch(const protocol_ctxt_t *const ctxt_pP, const rb_id_t Srb_id, const uint8_t *const Buffer, const uint8_t eNB_indexP)
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:84: warning: The following parameters of rrc_ue_decode_dcch(const protocol_ctxt_t *const ctxt_pP, const rb_id_t Srb_id, const uint8_t *const Buffer, const uint8_t eNB_indexP) are not documented:
+  parameter 'Buffer'
+  parameter 'eNB_indexP'
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:117: warning: argument 'frame' of command @param is not found in the argument list of rrc_ue_establish_srb1(module_id_t module_idP, frame_t frameP, uint8_t eNB_index, struct SRB_ToAddMod *SRB_config)
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:117: warning: The following parameters of rrc_ue_establish_srb1(module_id_t module_idP, frame_t frameP, uint8_t eNB_index, struct SRB_ToAddMod *SRB_config) are not documented:
+  parameter 'frameP'
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:125: warning: argument 'frame' of command @param is not found in the argument list of rrc_ue_establish_srb2(module_id_t module_idP, frame_t frameP, uint8_t eNB_index, struct SRB_ToAddMod *SRB_config)
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:125: warning: The following parameters of rrc_ue_establish_srb2(module_id_t module_idP, frame_t frameP, uint8_t eNB_index, struct SRB_ToAddMod *SRB_config) are not documented:
+  parameter 'frameP'
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:133: warning: The following parameters of rrc_ue_establish_drb(module_id_t module_idP, frame_t frameP, uint8_t eNB_index, struct DRB_ToAddMod *DRB_config) are not documented:
+  parameter 'frameP'
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:179: warning: The following parameters of rrc_eNB_decode_ccch(protocol_ctxt_t *const ctxt_pP, const SRB_INFO *const Srb_info, const int CC_id) are not documented:
+  parameter 'CC_id'
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:189: warning: argument 'sdu_size' of command @param is not found in the argument list of rrc_eNB_decode_dcch(const protocol_ctxt_t *const ctxt_pP, const rb_id_t Srb_id, const uint8_t *const Rx_sdu, const sdu_size_t sdu_sizeP)
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:189: warning: The following parameters of rrc_eNB_decode_dcch(const protocol_ctxt_t *const ctxt_pP, const rb_id_t Srb_id, const uint8_t *const Rx_sdu, const sdu_size_t sdu_sizeP) are not documented:
+  parameter 'Srb_id'
+  parameter 'sdu_sizeP'
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:201: warning: The following parameters of rrc_eNB_generate_RRCConnectionSetup(const protocol_ctxt_t *const ctxt_pP, rrc_eNB_ue_context_t *const ue_context_pP, const int CC_id) are not documented:
+  parameter 'CC_id'
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:270: warning: argument 'module_idP' of command @param is not found in the argument list of rrc_eNB_generate_RRCConnectionReconfiguration_handover(const protocol_ctxt_t *const ctxt_pP, rrc_eNB_ue_context_t *const ue_context_pP, uint8_t *const nas_pdu, const uint32_t nas_length)
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:270: warning: argument 'frame' of command @param is not found in the argument list of rrc_eNB_generate_RRCConnectionReconfiguration_handover(const protocol_ctxt_t *const ctxt_pP, rrc_eNB_ue_context_t *const ue_context_pP, uint8_t *const nas_pdu, const uint32_t nas_length)
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:270: warning: argument 'ue_module_idP' of command @param is not found in the argument list of rrc_eNB_generate_RRCConnectionReconfiguration_handover(const protocol_ctxt_t *const ctxt_pP, rrc_eNB_ue_context_t *const ue_context_pP, uint8_t *const nas_pdu, const uint32_t nas_length)
+/home/dev/OAI/openairinterface5g/openair2/RRC/LITE/proto.h:270: warning: The following parameters of rrc_eNB_generate_RRCConnectionReconfiguration_handover(const protocol_ctxt_t *const ctxt_pP, rrc_eNB_ue_context_t *const ue_context_pP, uint8_t *const nas_pdu, const uint32_t nas_length) are not documented:
+  parameter 'ctxt_pP'
+  parameter 'ue_context_pP'
+  parameter 'nas_pdu'
+  parameter 'nas_length'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:51: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_RA(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, uint8_t Msg3_subframe, unsigned int *nprb, unsigned int *nCCE)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:51: warning: argument 'frame' of command @param is not found in the argument list of schedule_RA(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, uint8_t Msg3_subframe, unsigned int *nprb, unsigned int *nCCE)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:51: warning: The following parameters of schedule_RA(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, uint8_t Msg3_subframe, unsigned int *nprb, unsigned int *nCCE) are not documented:
+  parameter 'module_idP'
+  parameter 'frameP'
+  parameter 'Msg3_subframe'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:61: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_SI(module_id_t module_idP, frame_t frameP, unsigned int *nprb, unsigned int *nCCE)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:61: warning: argument 'frame' of command @param is not found in the argument list of schedule_SI(module_id_t module_idP, frame_t frameP, unsigned int *nprb, unsigned int *nCCE)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:61: warning: argument 'subframe' of command @param is not found in the argument list of schedule_SI(module_id_t module_idP, frame_t frameP, unsigned int *nprb, unsigned int *nCCE)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:61: warning: argument 'Msg3_subframe' of command @param is not found in the argument list of schedule_SI(module_id_t module_idP, frame_t frameP, unsigned int *nprb, unsigned int *nCCE)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:61: warning: The following parameters of schedule_SI(module_id_t module_idP, frame_t frameP, unsigned int *nprb, unsigned int *nCCE) are not documented:
+  parameter 'module_idP'
+  parameter 'frameP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:71: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_MBMS(module_id_t module_idP, uint8_t CC_id, frame_t frameP, sub_frame_t subframe)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:71: warning: argument 'frame' of command @param is not found in the argument list of schedule_MBMS(module_id_t module_idP, uint8_t CC_id, frame_t frameP, sub_frame_t subframe)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:71: warning: The following parameters of schedule_MBMS(module_id_t module_idP, uint8_t CC_id, frame_t frameP, sub_frame_t subframe) are not documented:
+  parameter 'module_idP'
+  parameter 'CC_id'
+  parameter 'frameP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:78: warning: argument 'Mod_id' of command @param is not found in the argument list of get_mbsfn_sf_alloction(module_id_t module_idP, uint8_t CC_id, uint8_t mbsfn_sync_area)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:78: warning: argument 'index' of command @param is not found in the argument list of get_mbsfn_sf_alloction(module_id_t module_idP, uint8_t CC_id, uint8_t mbsfn_sync_area)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:78: warning: The following parameters of get_mbsfn_sf_alloction(module_id_t module_idP, uint8_t CC_id, uint8_t mbsfn_sync_area) are not documented:
+  parameter 'module_idP'
+  parameter 'CC_id'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:85: warning: argument 'Mod_id' of command @param is not found in the argument list of ue_get_mbsfn_sf_alloction(module_id_t module_idP, uint8_t mbsfn_sync_area, unsigned char eNB_index)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:85: warning: argument 'index' of command @param is not found in the argument list of ue_get_mbsfn_sf_alloction(module_id_t module_idP, uint8_t mbsfn_sync_area, unsigned char eNB_index)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:85: warning: The following parameters of ue_get_mbsfn_sf_alloction(module_id_t module_idP, uint8_t mbsfn_sync_area, unsigned char eNB_index) are not documented:
+  parameter 'module_idP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:93: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_ulsch(module_id_t module_idP, frame_t frameP, unsigned char cooperation_flag, sub_frame_t subframe, unsigned char sched_subframe, unsigned int *nCCE)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:93: warning: argument 'frame' of command @param is not found in the argument list of schedule_ulsch(module_id_t module_idP, frame_t frameP, unsigned char cooperation_flag, sub_frame_t subframe, unsigned char sched_subframe, unsigned int *nCCE)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:93: warning: The following parameters of schedule_ulsch(module_id_t module_idP, frame_t frameP, unsigned char cooperation_flag, sub_frame_t subframe, unsigned char sched_subframe, unsigned int *nCCE) are not documented:
+  parameter 'module_idP'
+  parameter 'frameP'
+  parameter 'cooperation_flag'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:102: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_ulsch_rnti(module_id_t module_idP, unsigned char cooperation_flag, frame_t frameP, sub_frame_t subframe, unsigned char sched_subframe, unsigned int *nCCE, unsigned int *nCCE_available, uint16_t *first_rb)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:102: warning: argument 'frame' of command @param is not found in the argument list of schedule_ulsch_rnti(module_id_t module_idP, unsigned char cooperation_flag, frame_t frameP, sub_frame_t subframe, unsigned char sched_subframe, unsigned int *nCCE, unsigned int *nCCE_available, uint16_t *first_rb)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:102: warning: The following parameters of schedule_ulsch_rnti(module_id_t module_idP, unsigned char cooperation_flag, frame_t frameP, sub_frame_t subframe, unsigned char sched_subframe, unsigned int *nCCE, unsigned int *nCCE_available, uint16_t *first_rb) are not documented:
+  parameter 'module_idP'
+  parameter 'cooperation_flag'
+  parameter 'frameP'
+  parameter 'nCCE_available'
+  parameter 'first_rb'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:112: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_ulsch_cba_rnti(module_id_t module_idP, unsigned char cooperation_flag, frame_t frameP, sub_frame_t subframe, unsigned char sched_subframe, unsigned int *nCCE, unsigned int *nCCE_available, uint16_t *first_rb)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:112: warning: argument 'frame' of command @param is not found in the argument list of schedule_ulsch_cba_rnti(module_id_t module_idP, unsigned char cooperation_flag, frame_t frameP, sub_frame_t subframe, unsigned char sched_subframe, unsigned int *nCCE, unsigned int *nCCE_available, uint16_t *first_rb)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:112: warning: The following parameters of schedule_ulsch_cba_rnti(module_id_t module_idP, unsigned char cooperation_flag, frame_t frameP, sub_frame_t subframe, unsigned char sched_subframe, unsigned int *nCCE, unsigned int *nCCE_available, uint16_t *first_rb) are not documented:
+  parameter 'module_idP'
+  parameter 'cooperation_flag'
+  parameter 'frameP'
+  parameter 'nCCE_available'
+  parameter 'first_rb'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:122: warning: argument 'Mod_id' of command @param is not found in the argument list of fill_DLSCH_dci(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, uint32_t *rballoc, uint8_t RA_scheduled, int *mbsfn_flag)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:122: warning: argument 'frame' of command @param is not found in the argument list of fill_DLSCH_dci(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, uint32_t *rballoc, uint8_t RA_scheduled, int *mbsfn_flag)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:122: warning: The following parameters of fill_DLSCH_dci(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, uint32_t *rballoc, uint8_t RA_scheduled, int *mbsfn_flag) are not documented:
+  parameter 'module_idP'
+  parameter 'frameP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:132: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_ue_spec(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, unsigned int *nb_rb_used0, unsigned int *nCCE_used, int *mbsfn_flag)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:132: warning: argument 'frame' of command @param is not found in the argument list of schedule_ue_spec(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, unsigned int *nb_rb_used0, unsigned int *nCCE_used, int *mbsfn_flag)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:132: warning: The following parameters of schedule_ue_spec(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, unsigned int *nb_rb_used0, unsigned int *nCCE_used, int *mbsfn_flag) are not documented:
+  parameter 'module_idP'
+  parameter 'frameP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:142: warning: argument 'Mod_id' of command @param is not found in the argument list of get_Po_NOMINAL_PUSCH(module_id_t module_idP, uint8_t CC_id)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:142: warning: The following parameters of get_Po_NOMINAL_PUSCH(module_id_t module_idP, uint8_t CC_id) are not documented:
+  parameter 'module_idP'
+  parameter 'CC_id'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:148: warning: argument 'Mod_id' of command @param is not found in the argument list of get_DELTA_PREAMBLE(module_id_t module_idP, int CC_id)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:148: warning: The following parameters of get_DELTA_PREAMBLE(module_id_t module_idP, int CC_id) are not documented:
+  parameter 'module_idP'
+  parameter 'CC_id'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:154: warning: argument 'Mod_id' of command @param is not found in the argument list of get_deltaP_rampup(module_id_t module_idP, uint8_t CC_id)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:154: warning: The following parameters of get_deltaP_rampup(module_id_t module_idP, uint8_t CC_id) are not documented:
+  parameter 'module_idP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:323: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_next_ulue(module_id_t module_idP, int UE_id, sub_frame_t subframe)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:323: warning: The following parameters of schedule_next_ulue(module_id_t module_idP, int UE_id, sub_frame_t subframe) are not documented:
+  parameter 'module_idP'
+  parameter 'UE_id'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:330: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_next_dlue(module_id_t module_idP, int CC_id, sub_frame_t subframe)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:330: warning: The following parameters of schedule_next_dlue(module_id_t module_idP, int CC_id, sub_frame_t subframe) are not documented:
+  parameter 'module_idP'
+  parameter 'CC_id'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:518: warning: argument 'Mod_id' of command @param is not found in the argument list of cba_access(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, uint8_t eNB_index, uint16_t buflen)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:518: warning: argument 'frame' of command @param is not found in the argument list of cba_access(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, uint8_t eNB_index, uint16_t buflen)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:518: warning: argument 'access' of command @param is not found in the argument list of cba_access(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, uint8_t eNB_index, uint16_t buflen)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:518: warning: argument '1' of command @param is not found in the argument list of cba_access(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, uint8_t eNB_index, uint16_t buflen)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:518: warning: The following parameters of cba_access(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, uint8_t eNB_index, uint16_t buflen) are not documented:
+  parameter 'module_idP'
+  parameter 'frameP'
+  parameter 'buflen'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:528: warning: argument 'Mod_id' of command @param is not found in the argument list of get_bsr_lcgid(module_id_t module_idP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:528: warning: argument 'lcgid' of command @param is not found in the argument list of get_bsr_lcgid(module_id_t module_idP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:528: warning: The following parameters of get_bsr_lcgid(module_id_t module_idP) are not documented:
+  parameter 'module_idP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:535: warning: argument 'Mod_id' of command @param is not found in the argument list of get_bsr_len(module_id_t module_idP, uint16_t bufflen)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:535: warning: argument 'bsr_len' of command @param is not found in the argument list of get_bsr_len(module_id_t module_idP, uint16_t bufflen)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:535: warning: The following parameters of get_bsr_len(module_id_t module_idP, uint16_t bufflen) are not documented:
+  parameter 'module_idP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:543: warning: argument 'Mod_id' of command @param is not found in the argument list of get_bsr_short(module_id_t module_idP, uint8_t bsr_len)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:543: warning: argument 'bsr_s' of command @param is not found in the argument list of get_bsr_short(module_id_t module_idP, uint8_t bsr_len)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:543: warning: The following parameters of get_bsr_short(module_id_t module_idP, uint8_t bsr_len) are not documented:
+  parameter 'module_idP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:551: warning: argument 'Mod_id' of command @param is not found in the argument list of get_bsr_long(module_id_t module_idP, uint8_t bsr_len)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:551: warning: argument 'bsr_l' of command @param is not found in the argument list of get_bsr_long(module_id_t module_idP, uint8_t bsr_len)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:551: warning: The following parameters of get_bsr_long(module_id_t module_idP, uint8_t bsr_len) are not documented:
+  parameter 'module_idP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:619: warning: argument 'Mod_id' of command @param is not found in the argument list of get_phr_mapping(module_id_t module_idP, int CC_id, uint8_t eNB_index)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:619: warning: The following parameters of get_phr_mapping(module_id_t module_idP, int CC_id, uint8_t eNB_index) are not documented:
+  parameter 'module_idP'
+  parameter 'eNB_index'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:634: warning: argument 'Mod_id' of command @param is not found in the argument list of Msg3_tx(module_id_t module_idP, uint8_t CC_id, frame_t frameP, uint8_t eNB_id)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:634: warning: The following parameters of Msg3_tx(module_id_t module_idP, uint8_t CC_id, frame_t frameP, uint8_t eNB_id) are not documented:
+  parameter 'module_idP'
+  parameter 'CC_id'
+  parameter 'frameP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:641: warning: argument 'Mod_id' of command @param is not found in the argument list of Msg1_tx(module_id_t module_idP, uint8_t CC_id, frame_t frameP, uint8_t eNB_id)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:641: warning: The following parameters of Msg1_tx(module_id_t module_idP, uint8_t CC_id, frame_t frameP, uint8_t eNB_id) are not documented:
+  parameter 'module_idP'
+  parameter 'CC_id'
+  parameter 'frameP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:697: warning: argument 'Mod_id' of command @param is not found in the argument list of rrc_mac_config_req(module_id_t module_idP, int CC_id, eNB_flag_t eNB_flag, rnti_t rntiP, uint8_t eNB_index, RadioResourceConfigCommonSIB_t *radioResourceConfigCommon, struct PhysicalConfigDedicated *physicalConfigDedicated, MeasObjectToAddMod_t **measObj, MAC_MainConfig_t *mac_MainConfig, long logicalChannelIdentity, LogicalChannelConfig_t *logicalChannelConfig, MeasGapConfig_t *measGapConfig, TDD_Config_t *tdd_Config, MobilityControlInfo_t *mobilityControlInfo, uint8_t *SIwindowsize, uint16_t *SIperiod, ARFCN_ValueEUTRA_t *ul_CarrierFreq, long *ul_Bandwidth, AdditionalSpectrumEmission_t *additionalSpectrumEmission, struct MBSFN_SubframeConfigList *mbsfn_SubframeConfigList)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:697: warning: argument 'eNB_id' of command @param is not found in the argument list of rrc_mac_config_req(module_id_t module_idP, int CC_id, eNB_flag_t eNB_flag, rnti_t rntiP, uint8_t eNB_index, RadioResourceConfigCommonSIB_t *radioResourceConfigCommon, struct PhysicalConfigDedicated *physicalConfigDedicated, MeasObjectToAddMod_t **measObj, MAC_MainConfig_t *mac_MainConfig, long logicalChannelIdentity, LogicalChannelConfig_t *logicalChannelConfig, MeasGapConfig_t *measGapConfig, TDD_Config_t *tdd_Config, MobilityControlInfo_t *mobilityControlInfo, uint8_t *SIwindowsize, uint16_t *SIperiod, ARFCN_ValueEUTRA_t *ul_CarrierFreq, long *ul_Bandwidth, AdditionalSpectrumEmission_t *additionalSpectrumEmission, struct MBSFN_SubframeConfigList *mbsfn_SubframeConfigList)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:697: warning: argument 'physcialConfigDedicated' of command @param is not found in the argument list of rrc_mac_config_req(module_id_t module_idP, int CC_id, eNB_flag_t eNB_flag, rnti_t rntiP, uint8_t eNB_index, RadioResourceConfigCommonSIB_t *radioResourceConfigCommon, struct PhysicalConfigDedicated *physicalConfigDedicated, MeasObjectToAddMod_t **measObj, MAC_MainConfig_t *mac_MainConfig, long logicalChannelIdentity, LogicalChannelConfig_t *logicalChannelConfig, MeasGapConfig_t *measGapConfig, TDD_Config_t *tdd_Config, MobilityControlInfo_t *mobilityControlInfo, uint8_t *SIwindowsize, uint16_t *SIperiod, ARFCN_ValueEUTRA_t *ul_CarrierFreq, long *ul_Bandwidth, AdditionalSpectrumEmission_t *additionalSpectrumEmission, struct MBSFN_SubframeConfigList *mbsfn_SubframeConfigList)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:697: warning: argument 'MBMS_Flag' of command @param is not found in the argument list of rrc_mac_config_req(module_id_t module_idP, int CC_id, eNB_flag_t eNB_flag, rnti_t rntiP, uint8_t eNB_index, RadioResourceConfigCommonSIB_t *radioResourceConfigCommon, struct PhysicalConfigDedicated *physicalConfigDedicated, MeasObjectToAddMod_t **measObj, MAC_MainConfig_t *mac_MainConfig, long logicalChannelIdentity, LogicalChannelConfig_t *logicalChannelConfig, MeasGapConfig_t *measGapConfig, TDD_Config_t *tdd_Config, MobilityControlInfo_t *mobilityControlInfo, uint8_t *SIwindowsize, uint16_t *SIperiod, ARFCN_ValueEUTRA_t *ul_CarrierFreq, long *ul_Bandwidth, AdditionalSpectrumEmission_t *additionalSpectrumEmission, struct MBSFN_SubframeConfigList *mbsfn_SubframeConfigList)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:697: warning: argument 'mbsfn_AreaInfoList' of command @param is not found in the argument list of rrc_mac_config_req(module_id_t module_idP, int CC_id, eNB_flag_t eNB_flag, rnti_t rntiP, uint8_t eNB_index, RadioResourceConfigCommonSIB_t *radioResourceConfigCommon, struct PhysicalConfigDedicated *physicalConfigDedicated, MeasObjectToAddMod_t **measObj, MAC_MainConfig_t *mac_MainConfig, long logicalChannelIdentity, LogicalChannelConfig_t *logicalChannelConfig, MeasGapConfig_t *measGapConfig, TDD_Config_t *tdd_Config, MobilityControlInfo_t *mobilityControlInfo, uint8_t *SIwindowsize, uint16_t *SIperiod, ARFCN_ValueEUTRA_t *ul_CarrierFreq, long *ul_Bandwidth, AdditionalSpectrumEmission_t *additionalSpectrumEmission, struct MBSFN_SubframeConfigList *mbsfn_SubframeConfigList)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:697: warning: argument 'pmch_InfoList' of command @param is not found in the argument list of rrc_mac_config_req(module_id_t module_idP, int CC_id, eNB_flag_t eNB_flag, rnti_t rntiP, uint8_t eNB_index, RadioResourceConfigCommonSIB_t *radioResourceConfigCommon, struct PhysicalConfigDedicated *physicalConfigDedicated, MeasObjectToAddMod_t **measObj, MAC_MainConfig_t *mac_MainConfig, long logicalChannelIdentity, LogicalChannelConfig_t *logicalChannelConfig, MeasGapConfig_t *measGapConfig, TDD_Config_t *tdd_Config, MobilityControlInfo_t *mobilityControlInfo, uint8_t *SIwindowsize, uint16_t *SIperiod, ARFCN_ValueEUTRA_t *ul_CarrierFreq, long *ul_Bandwidth, AdditionalSpectrumEmission_t *additionalSpectrumEmission, struct MBSFN_SubframeConfigList *mbsfn_SubframeConfigList)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:697: warning: The following parameters of rrc_mac_config_req(module_id_t module_idP, int CC_id, eNB_flag_t eNB_flag, rnti_t rntiP, uint8_t eNB_index, RadioResourceConfigCommonSIB_t *radioResourceConfigCommon, struct PhysicalConfigDedicated *physicalConfigDedicated, MeasObjectToAddMod_t **measObj, MAC_MainConfig_t *mac_MainConfig, long logicalChannelIdentity, LogicalChannelConfig_t *logicalChannelConfig, MeasGapConfig_t *measGapConfig, TDD_Config_t *tdd_Config, MobilityControlInfo_t *mobilityControlInfo, uint8_t *SIwindowsize, uint16_t *SIperiod, ARFCN_ValueEUTRA_t *ul_CarrierFreq, long *ul_Bandwidth, AdditionalSpectrumEmission_t *additionalSpectrumEmission, struct MBSFN_SubframeConfigList *mbsfn_SubframeConfigList) are not documented:
+  parameter 'module_idP'
+  parameter 'eNB_index'
+  parameter 'physicalConfigDedicated'
+  parameter 'ul_CarrierFreq'
+  parameter 'ul_Bandwidth'
+  parameter 'additionalSpectrumEmission'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:757: warning: argument 'Mod_id' of command @param is not found in the argument list of rrc_get_estimated_ue_distance(const protocol_ctxt_t *const ctxt_pP, const int CC_idP, const uint8_t loc_typeP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:757: warning: argument 'UE_id' of command @param is not found in the argument list of rrc_get_estimated_ue_distance(const protocol_ctxt_t *const ctxt_pP, const int CC_idP, const uint8_t loc_typeP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:757: warning: argument 'CC_id' of command @param is not found in the argument list of rrc_get_estimated_ue_distance(const protocol_ctxt_t *const ctxt_pP, const int CC_idP, const uint8_t loc_typeP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:757: warning: argument 'loc_type' of command @param is not found in the argument list of rrc_get_estimated_ue_distance(const protocol_ctxt_t *const ctxt_pP, const int CC_idP, const uint8_t loc_typeP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/MAC/proto.h:757: warning: The following parameters of rrc_get_estimated_ue_distance(const protocol_ctxt_t *const ctxt_pP, const int CC_idP, const uint8_t loc_typeP) are not documented:
+  parameter 'ctxt_pP'
+  parameter 'CC_idP'
+  parameter 'loc_typeP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/rlc.h:357: warning: argument 'MBMS_flag' of command @param is not found in the argument list of rrc_rlc_remove_rlc(const protocol_ctxt_t *const ctxtP, const srb_flag_t srb_flagP, const MBMS_flag_t MBMS_flagP, const rb_id_t rb_idP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/rlc.h:357: warning: The following parameters of rrc_rlc_remove_rlc(const protocol_ctxt_t *const ctxtP, const srb_flag_t srb_flagP, const MBMS_flag_t MBMS_flagP, const rb_id_t rb_idP) are not documented:
+  parameter 'MBMS_flagP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/rlc.h:367: warning: argument 'MBMS_flag' of command @param is not found in the argument list of rrc_rlc_add_rlc(const protocol_ctxt_t *const ctxtP, const srb_flag_t srb_flagP, const MBMS_flag_t MBMS_flagP, const rb_id_t rb_idP, logical_chan_id_t chan_idP, rlc_mode_t rlc_modeP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/rlc.h:367: warning: The following parameters of rrc_rlc_add_rlc(const protocol_ctxt_t *const ctxtP, const srb_flag_t srb_flagP, const MBMS_flag_t MBMS_flagP, const rb_id_t rb_idP, logical_chan_id_t chan_idP, rlc_mode_t rlc_modeP) are not documented:
+  parameter 'MBMS_flagP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/rlc.h:379: warning: argument 'MBMS_flag' of command @param is not found in the argument list of rrc_rlc_config_req(const protocol_ctxt_t *const ctxtP, const srb_flag_t srb_flagP, const MBMS_flag_t MBMS_flagP, config_action_t actionP, const rb_id_t rb_idP, rlc_info_t rlc_infoP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/rlc.h:379: warning: The following parameters of rrc_rlc_config_req(const protocol_ctxt_t *const ctxtP, const srb_flag_t srb_flagP, const MBMS_flag_t MBMS_flagP, config_action_t actionP, const rb_id_t rb_idP, rlc_info_t rlc_infoP) are not documented:
+  parameter 'MBMS_flagP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/rlc.h:403: warning: argument 'MBMS_flag' of command @param is not found in the argument list of rrc_rlc_data_req(const protocol_ctxt_t *const ctxtP, const MBMS_flag_t MBMS_flagP, const rb_id_t rb_idP, mui_t muiP, confirm_t confirmP, sdu_size_t sdu_sizeP, char *sduP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/rlc.h:403: warning: The following parameters of rrc_rlc_data_req(const protocol_ctxt_t *const ctxtP, const MBMS_flag_t MBMS_flagP, const rb_id_t rb_idP, mui_t muiP, confirm_t confirmP, sdu_size_t sdu_sizeP, char *sduP) are not documented:
+  parameter 'MBMS_flagP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:126: warning: argument 'ctxt_pP' of command @param is not found in the argument list of rlc_am_release(const protocol_ctxt_t *const ctxtP, rlc_am_entity_t *const rlc_pP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:126: warning: The following parameters of rlc_am_release(const protocol_ctxt_t *const ctxtP, rlc_am_entity_t *const rlc_pP) are not documented:
+  parameter 'ctxtP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:167: warning: argument 'ctxt_pP' of command @param is not found in the argument list of rlc_am_stat_req(const protocol_ctxt_t *const ctxtP, rlc_am_entity_t *const rlc_pP, unsigned int *stat_tx_pdcp_sdu, unsigned int *stat_tx_pdcp_bytes, unsigned int *stat_tx_pdcp_sdu_discarded, unsigned int *stat_tx_pdcp_bytes_discarded, unsigned int *stat_tx_data_pdu, unsigned int *stat_tx_data_bytes, unsigned int *stat_tx_retransmit_pdu_by_status, unsigned int *stat_tx_retransmit_bytes_by_status, unsigned int *stat_tx_retransmit_pdu, unsigned int *stat_tx_retransmit_bytes, unsigned int *stat_tx_control_pdu, unsigned int *stat_tx_control_bytes, unsigned int *stat_rx_pdcp_sdu, unsigned int *stat_rx_pdcp_bytes, unsigned int *stat_rx_data_pdus_duplicate, unsigned int *stat_rx_data_bytes_duplicate, unsigned int *stat_rx_data_pdu, unsigned int *stat_rx_data_bytes, unsigned int *stat_rx_data_pdu_dropped, unsigned int *stat_rx_data_bytes_dropped, unsigned int *stat_rx_data_pdu_out_of_window, unsigned int *stat_rx_data_bytes_out_of_window, unsigned int *stat_rx_control_pdu, unsigned int *stat_rx_control_bytes, unsigned int *stat_timer_reordering_timed_out, unsigned int *stat_timer_poll_retransmit_timed_out, unsigned int *stat_timer_status_prohibit_timed_out)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:167: warning: The following parameters of rlc_am_stat_req(const protocol_ctxt_t *const ctxtP, rlc_am_entity_t *const rlc_pP, unsigned int *stat_tx_pdcp_sdu, unsigned int *stat_tx_pdcp_bytes, unsigned int *stat_tx_pdcp_sdu_discarded, unsigned int *stat_tx_pdcp_bytes_discarded, unsigned int *stat_tx_data_pdu, unsigned int *stat_tx_data_bytes, unsigned int *stat_tx_retransmit_pdu_by_status, unsigned int *stat_tx_retransmit_bytes_by_status, unsigned int *stat_tx_retransmit_pdu, unsigned int *stat_tx_retransmit_bytes, unsigned int *stat_tx_control_pdu, unsigned int *stat_tx_control_bytes, unsigned int *stat_rx_pdcp_sdu, unsigned int *stat_rx_pdcp_bytes, unsigned int *stat_rx_data_pdus_duplicate, unsigned int *stat_rx_data_bytes_duplicate, unsigned int *stat_rx_data_pdu, unsigned int *stat_rx_data_bytes, unsigned int *stat_rx_data_pdu_dropped, unsigned int *stat_rx_data_bytes_dropped, unsigned int *stat_rx_data_pdu_out_of_window, unsigned int *stat_rx_data_bytes_out_of_window, unsigned int *stat_rx_control_pdu, unsigned int *stat_rx_control_bytes, unsigned int *stat_timer_reordering_timed_out, unsigned int *stat_timer_poll_retransmit_timed_out, unsigned int *stat_timer_status_prohibit_timed_out) are not documented:
+  parameter 'ctxtP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:259: warning: argument 'ctxt_pP' of command @param is not found in the argument list of rlc_am_get_pdus(const protocol_ctxt_t *const ctxtP, void *const rlc_pP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:259: warning: The following parameters of rlc_am_get_pdus(const protocol_ctxt_t *const ctxtP, void *const rlc_pP) are not documented:
+  parameter 'ctxtP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:266: warning: argument 'ctxt_pP' of command @param is not found in the argument list of rlc_am_rx(const protocol_ctxt_t *const ctxtP, void *const rlc_pP, struct mac_data_ind data_indication)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:266: warning: The following parameters of rlc_am_rx(const protocol_ctxt_t *const ctxtP, void *const rlc_pP, struct mac_data_ind data_indication) are not documented:
+  parameter 'ctxtP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:274: warning: argument 'ctxt_pP' of command @param is not found in the argument list of rlc_am_mac_status_indication(const protocol_ctxt_t *const ctxtP, void *const rlc_pP, uint16_t tbs_sizeP, struct mac_status_ind tx_statusP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:274: warning: The following parameters of rlc_am_mac_status_indication(const protocol_ctxt_t *const ctxtP, void *const rlc_pP, uint16_t tbs_sizeP, struct mac_status_ind tx_statusP) are not documented:
+  parameter 'ctxtP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:284: warning: argument 'ctxt_pP' of command @param is not found in the argument list of rlc_am_mac_data_request(const protocol_ctxt_t *const ctxtP, void *const rlc_pP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:284: warning: The following parameters of rlc_am_mac_data_request(const protocol_ctxt_t *const ctxtP, void *const rlc_pP) are not documented:
+  parameter 'ctxtP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:292: warning: argument 'ctxt_pP' of command @param is not found in the argument list of rlc_am_mac_data_indication(const protocol_ctxt_t *const ctxtP, void *const rlc_pP, struct mac_data_ind data_indP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:292: warning: The following parameters of rlc_am_mac_data_indication(const protocol_ctxt_t *const ctxtP, void *const rlc_pP, struct mac_data_ind data_indP) are not documented:
+  parameter 'ctxtP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:300: warning: argument 'ctxt_pP' of command @param is not found in the argument list of rlc_am_data_req(const protocol_ctxt_t *const ctxtP, void *const rlc_pP, mem_block_t *sduP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:300: warning: The following parameters of rlc_am_data_req(const protocol_ctxt_t *const ctxtP, void *const rlc_pP, mem_block_t *sduP) are not documented:
+  parameter 'ctxtP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_in_sdu.h:61: warning: argument 'ctxtP' of command @param is not found in the argument list of rlc_am_free_in_sdu(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *rlcP, unsigned int index_in_bufferP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_in_sdu.h:61: warning: The following parameters of rlc_am_free_in_sdu(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *rlcP, unsigned int index_in_bufferP) are not documented:
+  parameter 'ctxt_pP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_in_sdu.h:71: warning: argument 'ctxtP' of command @param is not found in the argument list of rlc_am_free_in_sdu_data(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *rlcP, unsigned int index_in_bufferP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_in_sdu.h:71: warning: The following parameters of rlc_am_free_in_sdu_data(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *rlcP, unsigned int index_in_bufferP) are not documented:
+  parameter 'ctxt_pP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_in_sdu.h:81: warning: argument 'ctxtP' of command @param is not found in the argument list of rlc_am_in_sdu_is_empty(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *rlcP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_in_sdu.h:81: warning: The following parameters of rlc_am_in_sdu_is_empty(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *rlcP) are not documented:
+  parameter 'ctxt_pP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:77: warning: argument 'ctxtP' of command @param is not found in the argument list of rlc_am_ack_pdu(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP, const rlc_sn_t snP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:77: warning: The following parameters of rlc_am_ack_pdu(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP, const rlc_sn_t snP) are not documented:
+  parameter 'ctxt_pP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:89: warning: argument 'ctxtP' of command @param is not found in the argument list of rlc_am_retransmit_get_copy(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP, const rlc_sn_t snP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:89: warning: The following parameters of rlc_am_retransmit_get_copy(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP, const rlc_sn_t snP) are not documented:
+  parameter 'ctxt_pP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:101: warning: argument 'ctxtP' of command @param is not found in the argument list of rlc_am_retransmit_get_subsegment(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP, const rlc_sn_t snP, sdu_size_t *const sizeP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:101: warning: The following parameters of rlc_am_retransmit_get_subsegment(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP, const rlc_sn_t snP, sdu_size_t *const sizeP) are not documented:
+  parameter 'ctxt_pP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:115: warning: argument 'ctxtP' of command @param is not found in the argument list of rlc_am_retransmit_any_pdu(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:115: warning: The following parameters of rlc_am_retransmit_any_pdu(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP) are not documented:
+  parameter 'ctxt_pP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:124: warning: argument 'ctxtP' of command @param is not found in the argument list of rlc_am_tx_buffer_display(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP, char *const message_pP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:124: warning: The following parameters of rlc_am_tx_buffer_display(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP, char *const message_pP) are not documented:
+  parameter 'ctxt_pP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_status_report.h:100: warning: argument 'total_size_pP' of command @param is not found in the argument list of rlc_am_get_control_pdu_infos(rlc_am_pdu_sn_10_t *const headerP, sdu_size_t *const total_sizeP, rlc_am_control_pdu_info_t *const pdu_infoP)
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_status_report.h:100: warning: The following parameters of rlc_am_get_control_pdu_infos(rlc_am_pdu_sn_10_t *const headerP, sdu_size_t *const total_sizeP, rlc_am_control_pdu_info_t *const pdu_infoP) are not documented:
+  parameter 'total_sizeP'
+/home/dev/OAI/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_timer_poll_retransmit.h:92: warning: argument 'frame' of command @param is not found in the argument list of rlc_am_start_timer_poll_retransmit(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlc_pP)
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:449: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:449: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:424: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:426: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:428: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:430: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:432: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:424: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:426: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:428: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:430: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:432: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:458: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:460: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:458: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:460: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:462: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:462: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/targets/ARCH/COMMON/common_lib.h:233: warning: unable to resolve reference to `nsamps' for \ref command
+/home/dev/OAI/openairinterface5g/targets/ARCH/COMMON/common_lib.h:233: warning: unable to resolve reference to `nsamps' for \ref command
+/home/dev/OAI/openairinterface5g/targets/ARCH/COMMON/common_lib.h:234: warning: unable to resolve reference to `nsamps' for \ref command
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:212: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:214: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:212: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:214: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:109: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:111: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:109: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:111: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:97: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:99: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:101: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:103: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:97: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:99: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:101: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:103: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:144: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:146: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:148: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:150: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:144: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:146: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:148: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:150: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:132: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:136: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:132: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:136: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:180: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:184: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:186: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:180: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:184: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:186: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:194: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:196: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:198: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:194: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:196: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:198: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:414: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:416: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:414: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:416: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:238: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:240: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:242: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:244: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:238: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:240: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:242: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:244: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:309: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:311: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:313: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:315: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:317: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:319: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:321: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:309: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:311: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:313: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:315: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:317: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:319: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:321: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:389: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:391: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:389: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:391: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:397: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:397: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:365: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:369: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:371: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:373: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:375: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:377: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:379: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:381: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:383: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:365: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:369: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:371: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:373: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:375: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:377: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:379: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:381: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:383: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:327: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:329: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:331: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:333: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:335: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:327: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:329: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:331: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:333: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:335: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:156: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:158: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:160: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:162: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:156: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:158: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:160: warning: Found unknown command `\vr'
+/home/dev/OAI/openairinterface5g/openair1/PHY/impl_defs_lte.h:162: warning: Found unknown command `\vr'

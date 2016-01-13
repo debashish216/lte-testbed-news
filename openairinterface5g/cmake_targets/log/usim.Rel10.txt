@@ -1,0 +1,24 @@
+Scanning dependencies of target usim
+[ 14%] [ 42%] [ 42%] [ 57%] Building C object CMakeFiles/usim.dir/home/dev/OAI/openairinterface5g/openair3/NAS/TOOLS/usim_data.c.o
+Building C object CMakeFiles/usim.dir/home/dev/OAI/openairinterface5g/openair3/NAS/UE/API/USIM/aka_functions.c.o
+Building C object CMakeFiles/usim.dir/home/dev/OAI/openairinterface5g/openair3/NAS/UE/API/USIM/usim_api.c.o
+Building C object CMakeFiles/usim.dir/home/dev/OAI/openairinterface5g/openair3/NAS/COMMON/UTIL/memory.c.o
+/home/dev/OAI/openairinterface5g/openair3/NAS/UE/API/USIM/usim_api.c: In function ‘usim_api_authenticate’:
+/home/dev/OAI/openairinterface5g/openair3/NAS/UE/API/USIM/usim_api.c:292:2: warning: #warning "LG:BUG HERE TODO" [-Wcpp]
+ #warning "LG:BUG HERE TODO"
+  ^
+/home/dev/OAI/openairinterface5g/openair3/NAS/UE/API/USIM/usim_api.c:294:10: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+         ((uint8_t*)(_usim_api_data.sqn_ms))[USIM_API_SQN_MS_SIZE - i];
+          ^
+/home/dev/OAI/openairinterface5g/openair3/NAS/TOOLS/usim_data.c: In function ‘main’:
+/home/dev/OAI/openairinterface5g/openair3/NAS/TOOLS/usim_data.c:162:2: warning: #warning "IMSI 208.10.00001234" [-Wcpp]
+ #warning "IMSI 208.10.00001234"
+  ^
+/home/dev/OAI/openairinterface5g/openair3/NAS/TOOLS/usim_data.c:167:6: warning: #warning "IMSI 208.10.00001234" [-Wcpp]
+     #warning "IMSI 208.10.00001234"
+      ^
+[ 71%] Building C object CMakeFiles/usim.dir/home/dev/OAI/openairinterface5g/openair3/NAS/COMMON/UTIL/nas_log.c.o
+[ 85%] Building C object CMakeFiles/usim.dir/home/dev/OAI/openairinterface5g/openair3/NAS/COMMON/UTIL/OctetString.c.o
+[100%] Building C object CMakeFiles/usim.dir/home/dev/OAI/openairinterface5g/openair3/NAS/COMMON/UTIL/TLVEncoder.c.o
+Linking C executable usim
+[100%] Built target usim

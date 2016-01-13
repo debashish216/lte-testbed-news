@@ -1,0 +1,8 @@
+Scanning dependencies of target ue_ip
+/home/dev/OAI/openairinterface5g/openair2/NETWORK_DRIVER/UE_IP/netlink.c
+make[4]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+/home/dev/OAI/openairinterface5g/openair2/NETWORK_DRIVER/UE_IP/common.c: In function ‘ue_ip_common_class_wireless2ip’:
+/home/dev/OAI/openairinterface5g/openair2/NETWORK_DRIVER/UE_IP/common.c:135:9: warning: assignment from incompatible pointer type [enabled by default]
+   ipv_p = (struct ipversion*)((void*)&(skb_p->data[hard_header_len]));
+         ^
+Built target ue_ip

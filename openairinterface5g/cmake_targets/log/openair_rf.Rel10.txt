@@ -1,0 +1,16 @@
+Scanning dependencies of target openair_rf
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/DRIVER/eurecom/exmimo_fw.c
+make[4]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/DRIVER/eurecom/fileops.c: In function ‘openair_device_ioctl’:
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/DRIVER/eurecom/fileops.c:339:35: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+       update_firmware_ubuffer   = (unsigned int*)((unsigned int*)arg)[3];
+                                   ^
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/DRIVER/eurecom/exmimo_fw.c: In function ‘exmimo_allocate_rx_tx_buffers’:
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/DRIVER/eurecom/exmimo_fw.c:204:9: warning: unused variable ‘i’ [-Wunused-variable]
+   int j,i;
+         ^
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/DRIVER/eurecom/exmimo_fw.c: In function ‘exmimo_memory_alloc’:
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/DRIVER/eurecom/exmimo_fw.c:254:7: warning: unused variable ‘i’ [-Wunused-variable]
+   int i;
+       ^
+Built target openair_rf

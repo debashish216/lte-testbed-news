@@ -1,0 +1,26 @@
+make: Entering directory `/home/dev/OAI/openairinterface5g/cmake_targets/lte_build_oai/build'
+make[1]: Entering directory `/home/dev/OAI/openairinterface5g/cmake_targets/lte_build_oai/build'
+make[2]: Entering directory `/home/dev/OAI/openairinterface5g/cmake_targets/lte_build_oai/build'
+make[3]: Entering directory `/home/dev/OAI/openairinterface5g/cmake_targets/lte_build_oai/build'
+Scanning dependencies of target OPENAIR0_LIB
+make[3]: Leaving directory `/home/dev/OAI/openairinterface5g/cmake_targets/lte_build_oai/build'
+make[3]: Entering directory `/home/dev/OAI/openairinterface5g/cmake_targets/lte_build_oai/build'
+[  0%] Building C object CMakeFiles/OPENAIR0_LIB.dir/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/LIB/openair0_lib.c.o
+Linking C static library libOPENAIR0_LIB.a
+make[3]: Leaving directory `/home/dev/OAI/openairinterface5g/cmake_targets/lte_build_oai/build'
+[  0%] Built target OPENAIR0_LIB
+make[3]: Entering directory `/home/dev/OAI/openairinterface5g/cmake_targets/lte_build_oai/build'
+Scanning dependencies of target oarf
+make[3]: Leaving directory `/home/dev/OAI/openairinterface5g/cmake_targets/lte_build_oai/build'
+make[3]: Entering directory `/home/dev/OAI/openairinterface5g/cmake_targets/lte_build_oai/build'
+[  0%] Generating oarf_config_exmimo.oct
+[  0%] Generating oarf_get_frame.oct
+[100%] Generating oarf_stop.oct
+[100%] Generating oarf_send_frame.oct
+[100%] Generating oarf_get_num_detected_cards.oct
+[100%] Generating oarf_stop_without_reset.oct
+make[3]: Leaving directory `/home/dev/OAI/openairinterface5g/cmake_targets/lte_build_oai/build'
+[100%] Built target oarf
+make[2]: Leaving directory `/home/dev/OAI/openairinterface5g/cmake_targets/lte_build_oai/build'
+make[1]: Leaving directory `/home/dev/OAI/openairinterface5g/cmake_targets/lte_build_oai/build'
+make: Leaving directory `/home/dev/OAI/openairinterface5g/cmake_targets/lte_build_oai/build'

@@ -1,0 +1,2 @@
+/home/dev/OAI/openairinterface5g/cmake_targets/nas_sim_tools/build/CMakeFiles/nvram.dir
+/home/dev/OAI/openairinterface5g/cmake_targets/nas_sim_tools/build/CMakeFiles/usim.dir

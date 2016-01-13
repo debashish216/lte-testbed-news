@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/nvram.dir/home/dev/OAI/openairinterface5g/openair3/NAS/TOOLS/ue_data.c.o CMakeFiles/nvram.dir/home/dev/OAI/openairinterface5g/openair3/NAS/COMMON/UTIL/memory.c.o CMakeFiles/nvram.dir/home/dev/OAI/openairinterface5g/openair3/NAS/COMMON/UTIL/nas_log.c.o  -o nvram -rdynamic 

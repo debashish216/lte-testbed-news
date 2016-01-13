@@ -1,0 +1,47 @@
+Scanning dependencies of target updatefw
+[100%] Building C object CMakeFiles/updatefw.dir/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c.o
+In file included from /home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c:54:0:
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.h:48:1: warning: multi-line comment [-Wcomment]
+ //                                  else {    \
+ ^
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c:78:3: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+   {  .name = "help",        .has_arg = no_argument,       .flag = &helpflag,      .val = SWITCH_IS_ON  },
+   ^
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c:78:3: warning: (near initialization for ‘updatefw_longopts[0].flag’) [-Wpointer-sign]
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c:80:3: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+   {  .name = "pretend",     .has_arg = no_argument,       .flag = &pflag,         .val = SWITCH_IS_ON  },
+   ^
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c:80:3: warning: (near initialization for ‘updatefw_longopts[2].flag’) [-Wpointer-sign]
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c:81:3: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+   {  .name = "noexec",      .has_arg = no_argument,       .flag = &noexecflag,    .val = SWITCH_IS_ON  },
+   ^
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c:81:3: warning: (near initialization for ‘updatefw_longopts[3].flag’) [-Wpointer-sign]
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c:83:3: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+   {  .name = "forcereboot", .has_arg = no_argument,       .flag = &rebootflag,    .val = SWITCH_IS_ON  },
+   ^
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c:83:3: warning: (near initialization for ‘updatefw_longopts[5].flag’) [-Wpointer-sign]
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c: In function ‘find_and_transfer_section’:
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c:284:27: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+         ioctl_params[3] = (unsigned int)((unsigned int*)section_content);
+                           ^
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c: In function ‘main’:
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c:473:39: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+       stackpointer |= (*c - '0') << 28-(i*4);
+                                       ^
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c:475:46: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+       stackpointer |= ((*c - 'A') + 10) << 28-(i*4);
+                                              ^
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c:477:46: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+       stackpointer |= ((*c - 'a') + 10) << 28-(i*4);
+                                              ^
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c:515:13: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long int’ [-Wformat=]
+             StringSec_size, MAX_SIZE_STRING_TABLE);
+             ^
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c:375:16: warning: unused variable ‘do_UPDATE_FIRMWARE_START_EXECUTION’ [-Wunused-variable]
+   unsigned int do_UPDATE_FIRMWARE_START_EXECUTION = 1;
+                ^
+/home/dev/OAI/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/OAI_FW_INIT/updatefw.c:519:8: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+   fread(SecNameStnTable, 1, StringSec_size, p_elfimage);
+        ^
+Linking C executable updatefw
+[100%] Built target updatefw

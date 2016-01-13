@@ -1,0 +1,10 @@
+Scanning dependencies of target nvram
+[ 33%] [100%] [100%] Building C object CMakeFiles/nvram.dir/home/dev/OAI/openairinterface5g/openair3/NAS/TOOLS/ue_data.c.o
+Building C object CMakeFiles/nvram.dir/home/dev/OAI/openairinterface5g/openair3/NAS/COMMON/UTIL/memory.c.o
+Building C object CMakeFiles/nvram.dir/home/dev/OAI/openairinterface5g/openair3/NAS/COMMON/UTIL/nas_log.c.o
+/home/dev/OAI/openairinterface5g/openair3/NAS/TOOLS/ue_data.c: In function ‘_display_emm_data’:
+/home/dev/OAI/openairinterface5g/openair3/NAS/TOOLS/ue_data.c:500:14: warning: too many arguments for format [-Wformat-extra-args]
+              data->imsi.u.num.digit15);
+              ^
+Linking C executable nvram
+[100%] Built target nvram
